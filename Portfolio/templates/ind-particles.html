@@ -1,0 +1,774 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from baha.malyarchuk.space/ind-particles.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Aug 2021 23:23:16 GMT -->
+<head>
+
+		<!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<!-- Title -->
+		<title>My Personal Portfolio Website</title>
+
+		<!-- CSS Plugins -->
+        <link rel="stylesheet" href="{% static 'css/plugins/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/plugins/font-awesome.css' %}">
+		<link rel="stylesheet" href="{% static 'css/plugins/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'css/plugins/simplebar.css' %}">
+		<link rel="stylesheet" href="{% static 'css/plugins/owl.carousel.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/plugins/owl.theme.default.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/plugins/jquery.animatedheadline.css' %}">
+
+		<!-- CSS Base -->
+        <link rel="stylesheet" class="theme-st" href="{% static 'css/style-dark.css' %}">
+
+		<!-- Settings Style -->
+		<link rel="stylesheet" class="pos-nav" href="{% static 'css/settings/left-nav.css' %}" />
+		<link rel="stylesheet" class="box-bd" href="{% static 'css/settings/box/box.css' %}">
+		<link rel="stylesheet" class="box-st" href="{% static 'css/settings/box/circle.css' %}" />
+		<link rel="stylesheet" class="box-tl" href="{% static 'css/settings/title/title.css' %}">
+		<link rel="stylesheet" class="style-cl" href="{% static 'css/settings/color/green-color.css' %}" />
+
+		<link rel="stylesheet" href="{% static 'setting/style-demo.css' %}">
+
+    </head>
+    <body>
+
+		<!--Theme Options Start-->
+		
+
+		<!-- Preloader -->
+		<div id="preloader">
+  			<div class="loading-area">
+    			<div class="circle"></div>
+  			</div>
+  			<div class="left-side"></div>
+  			<div class="right-side"></div>
+		</div>
+
+		<!-- Main Site -->
+		<div id="home">
+  		<div id="about">
+    	<div id="resume">
+     	<div id="portfolio">
+        <div id="blog">
+		<div id="contact">
+
+			<div class="header-mobile">
+                <a class="header-toggle"><i class="fas fa-bars"></i></a>
+                <h2></h2>
+            </div>
+
+			<!-- Left Block -->
+			<nav class="header-main" data-simplebar>
+
+				<!-- Logo -->
+				<div class="logo">
+            		<img src="{% static 'img/logo.png' %}" alt="">
+            	</div>
+
+          		<ul>
+					<li data-tooltip="home" data-position="top">
+            			<a href="#home" class="icon-h fas fa-house-damage"></a>
+					</li>
+					<li data-tooltip="about" data-position="top">
+            			<a href="#about" class="icon-a fas fa-user-tie"></a>
+					</li>
+					<li data-tooltip="resume" data-position="top">
+            			<a href="#resume" class="icon-r fas fa-address-book"></a>
+					</li>
+					<li data-tooltip="portfolio" data-position="top">
+            			<a href="#portfolio" class="icon-p fas fa-briefcase"></a>
+					</li>
+					<li data-tooltip="contact" data-position="bottom">
+						<a href="#contact" class="icon-c fas fa-envelope"></a>
+					</li>
+          		</ul>
+			 </nav>
+
+			<!-- Home Section -->
+          	<div class="pt-home" style="background-image: url({% static 'img/home-bg.jpg' %})">
+
+				<!-- Particles -->
+				<div id="particles-js"></div>
+
+             	<section>
+
+					<!-- Banner -->
+					<div class="banner">
+  						<h2>Emmanuel Ugwu</h2>
+						<p class="cd-headline rotate-1">
+							<span>I am a</span>
+							<span class="cd-words-wrapper">
+								<b class="is-visible">Backend-Developer</b>
+								<b>Freelancer</b>
+							</span>
+						</p>
+					</div>
+
+					<!-- Social -->
+					<div class="social">
+            			<ul>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+                			<li><a href="https://github.com/EmmanuelHillary"><i class="fab fa-github"></i></a></li>
+                			<li><a href="https://www.linkedin.com/in/emmanuel-ugwu-011972181"><i class="fab fa-linkedin-in"></i></a></li>
+            			</ul>
+        			</div>
+			  	</section>
+          	</div>
+
+			<!-- About Section -->
+			<div class="page pt-about" data-simplebar>
+				<section class="container">
+
+					<!-- Section Title -->
+					<div class="header-page mt-70 mob-mt">
+						<h2>About Me</h2>
+						<span></span>
+					</div>
+
+					<!-- Personal Info Start -->
+					<div class="row mt-100">
+
+						<!-- Information Block -->
+						<div class="col-lg-12 col-sm-12">
+    						<div class="info box-1">
+								<div class="row">
+									<div class="col-lg-3 col-sm-4">
+										<div class="photo">
+											<img alt="" src="{% static 'img/portfolio.jpeg' %}">
+										</div>
+									</div>
+									<div class="col-lg-9 col-sm-8">
+										<h4>Emmanuel Ugwu</h4>
+										<div class="loc">
+											<i class="fas fa-map-marked-alt"></i> Lagos, Nigeria
+										</div>
+										<p>Hello! I’m Emmanuel Ugwu a self-taught Backend Developer with 1.5+ years coding experience, advanced coding abilities and enthusiasm for new enhancements. Expert in building high-performing, scalable well structures for today and future client needs. Advanced in Python and JavaScript programming languages.  I'm looking for opportunities to gain relevant experience and work with insightful people. I'm a flexible person and a great team player.
+										</p>
+										<p>I have couple of hobbies but I like to listen to music. I am fond of games as well i love playing games.
+										</p>
+									</div>
+
+									<!-- Icon Info -->
+									<div class="col-lg-3 col-sm-4">
+                                		<div class="info-icon">
+                                     		<i class="fas fa-award"></i>
+                                     		<div class="desc-icon">
+												<h6>1.5+ Years</h6>
+                                            	<p>Coding Experience</p>
+                                       		</div>
+                                		</div>
+                                	</div>
+
+									<!-- Icon Info -->
+									<div class="col-lg-3 col-sm-4">
+                                		<div class="info-icon">
+                                     		<i class="fas fa-certificate"></i>
+                                     		<div class="desc-icon">
+												<h6>6+ Self Projects</h6>
+                                            	<p>Completed</p>
+                                      		</div>
+                                		</div>
+                                	</div>
+
+									<!-- Icon Info -->
+									<div class="col-lg-3 col-sm-4">
+                                		<div class="info-icon">
+                                     		<i class="fas fa-user-astronaut"></i>
+                                     		<div class="desc-icon">
+												<h6>Freelance</h6>
+                                           		<p>Available</p>
+                                        	</div>
+                                		</div>
+                                	</div>
+									<div class="col-lg-3 col-sm-12 pt-50">
+                                		<a href="#" onclick="download_pdf(); return false;" class="btn-st">Download CV</a>
+                                	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Interests Row Start -->
+					<div class="row mt-100">
+
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>My Interests</h3>
+							</div>
+						</div>
+
+						<div class="col-lg-12 col-sm-12">
+							<div class="box-2">
+								<div class="row">
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                     		<i class="fas fa-music"></i>
+                                    	 	<div class="desc-inter">
+												<h6>Music</h6>
+                               	        	</div>
+										</div>
+									</div>
+
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                     		<i class="fas fa-route"></i>
+                                     		<div class="desc-inter">
+												<h6>Travelling</h6>
+                                       		</div>
+                                		</div>
+									</div>
+
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+											<i class="fas fa-futbol"></i>
+                                  		   	<div class="desc-inter">
+												<h6>Football</h6>
+                                  	     	</div>
+                                		</div>
+									</div>
+
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+                                    	 	<i class="fas fa-film"></i>
+                                     		<div class="desc-inter">
+												<h6>Movies</h6>
+                                   	    	</div>
+                                		</div>
+									</div>
+
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+        	                             	<i class="fas fa-gamepad"></i>
+            	                         	<div class="desc-inter">
+												<h6>Video games</h6>
+                    	                   	</div>
+                        	        	</div>
+									</div>
+									
+									<!-- Interests Item -->
+									<div class="col-lg-3 col-sm-6">
+										<div class="inter-icon">
+											<i class="fas fa-code"></i>
+            	                         	<div class="desc-inter">
+												<h6>Coding</h6>
+                    	                   	</div>
+                        	        	</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Service Row Start -->
+					<div class="row mt-100">
+
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>Services</h3>
+							</div>
+						</div>
+
+						<!-- Service Item -->
+						<div class="col-lg-6 col-sm-6">
+							<div class="service box-1 mb-40">
+								<i class="fas fa-desktop"></i>
+								<h4>Web Design</h4>
+								<p>The most modern and high-quality design made at a professional level.</p>
+							</div>
+						</div>
+
+						<!-- Service Item -->
+						<div class="col-lg-6 col-sm-6">
+							<div class="service box-2 mb-40">
+								<i class="fas fa-cogs"></i>
+								<h4>Backend Development</h4>
+								<p>High-quality and professional development of REST APIs at the professional level.</p>
+							</div>
+						</div>
+
+			  	</section>
+         	</div>
+
+			<!-- Resume Section -->
+          	<div class="page pt-resume" data-simplebar>
+            	<section class="container">
+
+					<!-- Section Title -->
+					<div class="header-page mt-70 mob-mt">
+						<h2>Resume</h2>
+    					<span></span>
+					</div>
+
+					<!-- Experience & Education Row Start -->
+					<div class="row mt-100">
+
+						<!-- Experience Column Start -->
+						<div class="col-lg-6 col-sm-12">
+
+							<!-- Header Block -->
+							<div class="header-box mb-50">
+								<h3>Experience</h3>
+							</div>
+
+							<div class="experience box-1">
+
+								<!-- Experience Item -->
+								<div class="item">
+									<div class="main">
+										<h4>Back-End Developer</h4>
+										<p><i class="far fa-calendar-alt"></i>2020 - Present | Staud Digital Accomodation</p>
+									</div>
+									<p>Enhanced applications and improved performance through testing and validations against requirements and performance standards.  Coordinated concepts, libraries, and style guides for development team</p>
+								</div>
+
+								<!-- Experience Item -->
+								<div class="item">
+									<div class="main">
+										<h4>Freelancer</h4>
+										<p><i class="far fa-calendar-alt"></i>2020 - Present | Upwork Inc</p>
+									</div>
+									<p>Created highly responsive and scalable web applications for use in different industries and client environments.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Education Column Start -->
+						<div class="col-lg-6 col-sm-12">
+
+							<!-- Header Block -->
+							<div class="header-box mb-50 mob-box-mt">
+								<h3>Education</h3>
+							</div>
+
+							<div class="experience box-2">
+
+								<!-- Education Item -->
+								<div class="item">
+									<div class="main">
+										<h4>BSc</h4>
+										<p><i class="far fa-calendar-alt"></i>2017 - 2023 | Electrical and Electronics Engineering</p>
+									</div>
+									<p>University of Lagos, Nigeria</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Skills Row Start -->
+					<div class="row mt-100">
+
+						<!-- Header Block -->
+						<div class="col-md-12">
+							<div class="header-box mb-50">
+								<h3>Skills</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="box-1 skills">
+						<div class="row">
+							<div class="col-lg-6 col-sm-6">
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">HTML5</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:88%">
+											<div class="progress-value">88%</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">CSS3</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:70%">
+											<div class="progress-value">70%</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">JavaScript</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:83%">
+											<div class="progress-value">83%</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Skill Item -->
+								<div class="skill-item">
+									<h4 class="progress-title">Python</h4>
+									<div class="progress">
+										<div class="progress-bar" style="width:85%">
+											<div class="progress-value">85%</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-sm-6">
+								<div class="row">
+
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="86" data-bar-color="#fff"> 86% <p>Django</p></div>
+									</div>
+
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="70" data-bar-color="#fff"> 70% <p>DRF</p></div>
+									</div>
+
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="60" data-bar-color="#fff"> 60% <p>PostgreSQL</p></div>
+									</div>
+
+									<!-- Skill Item -->
+									<div class="col-lg-6 col-sm-6">
+										<div class="chart" data-percent="80" data-bar-color="#fff"> 80% <p>Bootstrap</p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			  	</section>
+         	</div>
+
+			<!-- Portfolio Section -->
+          	<div class="page pt-portfolio" data-simplebar>
+            	<section class="container">
+
+					<!-- Section Title -->
+					<div class="header-page mt-70 mob-mt">
+						<h2>Portfolio</h2>
+    					<span></span>
+					</div>
+
+					<!-- Portfolio Filter Row Start -->
+					<div class="row mt-100">
+						<div class="col-lg-12 col-sm-12 portfolio-filter">
+							<ul>
+								<li class="active" data-filter="*">All</li>
+								<li data-filter=".brand">To do app</li>
+								<li data-filter=".design">Social app</li>
+								<li data-filter=".graphic">Blog app</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Portfolio Item Row Start -->
+					<div class="row portfolio-items mt-100 mb-100">
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 brand">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-1.png' %}">
+								<figcaption>
+									<h3>Homepage</h3>
+									<p>To do app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-1.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 brand">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-2.png' %}">
+									<figcaption>
+									<h3>Task Manager</h3>
+									<p>To do app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-2.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 brand">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-3.png' %}">
+								<figcaption>
+									<h3>Tasks Added</h3>
+									<p>To do app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-3.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 design">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-4.png' %}">
+								<figcaption>
+									<h3>Homepage</h3>
+									<p>Social app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-4.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 design">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-5.png' %}">
+								<figcaption>
+									<h3>User's Groups</h3>
+									<p>Social app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-5.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 design">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-6.png' %}">
+								<figcaption>
+									<h3>Group Posts</h3>
+									<p>Social app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-6.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 graphic">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-7.png' %}">
+								<figcaption>
+									<h3>Posts</h3>
+									<p>Blog app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-7.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 graphic">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-8.png' %}">
+								<figcaption>
+									<h3>Login</h3>
+									<p>Blog app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-8.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+
+						<!-- Portfolio Item -->
+						<div class="item col-lg-4 col-sm-6 graphic">
+							<figure>
+								<img alt="" src="{% static 'img/portfolio/img-9.png' %}">
+								<figcaption>
+									<h3>Register</h3>
+									<p>Blog app</p><i class="fas fa-image"></i>
+									<a class="image-link" href="{% static 'img/portfolio/img-9.png' %}"></a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</section>
+       	   	</div>
+
+			<!-- Contact Section -->
+         	<div class="page pt-contact" data-simplebar>
+            	<section class="container">
+
+					<!-- Section Title -->
+              		<div class="header-page mt-70 mob-mt">
+						<h2>Contact</h2>
+    					<span></span>
+					</div>
+
+					<!-- Form Start -->
+					<div class="row mt-100">
+						<div class="col-lg-12 col-sm-12">
+							<div class="contact-form ">
+                        		<form method="" class="box-1 contact-valid" id="contact-form">
+									<div class="row">
+                            			<div class="col-lg-6 col-sm-12">
+                                			<input type="text" name="name" id="name" class="form-control" placeholder="Name *">
+                            			</div>
+                            			<div class="col-lg-6 col-sm-12">
+                                			<input type="email" name="email" id="email" class="form-control" placeholder="Email *">
+                            			</div>
+                            			<div class="col-lg-12 col-sm-12">
+                                			<textarea class="form-control" name="message"  id="note" placeholder="Your Message"></textarea>
+                            			</div>
+                             			<div class="col-lg-12 col-sm-12 text-center">
+                                			<button type="submit" class="btn-st">Send Message</button>
+                                			<div id="loader">
+                                    			<i class="fas fa-sync"></i>
+                                			</div>
+                            			</div>
+										<div class="col-lg-12 col-sm-12">
+                            				<div class="error-messages">
+                                				<div id="success" style="display: none;">
+													<i class="far fa-check-circle"></i>Thank you, your message has been sent.
+												</div>
+                                				<div id="error" style="display: none;">
+													<i class="far fa-times-circle"></i>Error occurred while sending email. Please try again later.
+												</div>
+											</div>
+                            			</div>
+									</div>
+                    			</form>
+                    		</div>
+						</div>
+					</div>
+
+					<!-- Contact Info -->
+					<div class="box-2 contact-info">
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 info">
+								<i class="fas fa-paper-plane"></i>
+         						<p>Emmanuelhillaryugwu@gmail.com</p>
+          						<span>Email</span>
+							</div>
+							<div class="col-lg-4 col-sm-12 info">
+								<i class="fas fa-map-marker-alt"></i>
+         						<p>Lagos, Nigeria</p>
+          						<span>Addres</span>
+							</div>
+							<div class="col-lg-4 col-sm-12 info">
+								<i class="fas fa-phone"></i>
+         						<p>(+234) 08181796905</p>
+          						<span>Phone</span>
+							</div>
+						</div>
+					</div>
+
+					
+            	</section>
+          	</div>
+
+        </div>
+      	</div>
+    	</div>
+  		</div>
+		</div>
+		</div>
+
+		<!-- All Script -->
+		<script src="{% static 'js/jquery.min.js' %}"></script>
+		<script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'js/simplebar.js' %}"></script>
+		<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+		<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+		<script src="{% static 'js/jquery.animatedheadline.min.js' %}"></script>
+		<script src="{% static 'js/jquery.easypiechart.js' %}"></script>
+		<script src="{% static 'js/jquery.validation.js' %}"></script>
+		<script src="{% static 'js/tilt.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
+        
+
+		<!-- Page Script -->
+		<script src="{% static 'js/particles.min.js' %}"></script>
+		<script>
+			particlesJS.load('particles-js', 'js/particles.json', function() {
+				console.log('callback - particles.js config loaded');
+        	});
+
+			function download_pdf(){
+				let url = "{% url 'my_portfolio:download_cv' filename='Resume.pdf' %}"
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', url, true);
+				xhr.responseType = 'blob';
+
+				xhr.onload = function(e) {
+				if (this.status == 200) {
+					var blob = new Blob([this.response], {type: 'application/pdf'})
+					let link=document.createElement('a');
+					link.href=window.URL.createObjectURL(blob); 
+					link.download="CV.pdf"; 
+					link.click()
+				}
+				};
+
+				xhr.send(); 
+			}
+			function getCookie(name) {
+                let cookieValue = null;
+                if (document.cookie && document.cookie !== '') {
+                    const cookies = document.cookie.split(';');
+                    for (let i = 0; i < cookies.length; i++) {
+                        const cookie = cookies[i].trim();
+                        // Does this cookie string begin with the name we want?
+                        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                            break;
+                        }
+                    }
+                }
+                return cookieValue;
+            }
+
+            function objectifyForm(formArray) {
+                //serialize data function
+                var returnArray = {};
+                for (var i = 0; i < formArray.length; i++){
+                    returnArray[formArray[i]['name']] = formArray[i]['value'];
+                }
+                return returnArray;
+            }
+
+            const csrftoken = getCookie('csrftoken');
+            $("#contact-form").submit(function(e){
+                e.preventDefault();
+                let url = `{% url 'my_portfolio:contact' %}`
+                let formDATA = $(this).serializeArray()
+                let data = objectifyForm(formDATA)
+                $.ajax({
+                    url: url,
+                    method: "POST",
+                    headers:{"X-CSRFToken": csrftoken},
+                    data: data,
+                    dataType: 'json',
+                    success: function () {
+                        $( "#loader").hide();
+                        $( "#success").slideDown( "slow" );
+                        setTimeout(function() {
+                        $( "#success").slideUp( "slow" );
+                        }, 3000);
+						var frm = document.getElementById('contact-form')
+                        frm.reset();
+                    },
+                    error: function(e, err, erx) {
+						console.log(erx)
+                        $( "#loader").hide();
+                        $( "#error").slideDown( "slow" );
+                        setTimeout(function() {
+                        $( "#error").slideUp( "slow" );
+                        }, 3000);
+                    }
+					
+                });
+            });
+		</script>
+
+		
+
+    </body>
+
+<!-- Mirrored from baha.malyarchuk.space/ind-particles.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Aug 2021 23:28:38 GMT -->
+</html>
