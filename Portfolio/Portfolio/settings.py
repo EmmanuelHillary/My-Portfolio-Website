@@ -137,19 +137,19 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email Settings
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_HOST = 'localhost'
-EMAIL_PORT = '1025'
-EMAIL_HOST_USER = 'admin@mail.com'
-ADMIN_HOST_USER = "hillarygrg@gmail.com"
-EMAIL_HOST_USER_PASSWORD = ''
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = False
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_HOST = 'localhost'
+# EMAIL_PORT = '1025'
+# EMAIL_HOST_USER = 'admin@mail.com'
+# ADMIN_HOST_USER = "hillarygrg@gmail.com"
+# EMAIL_HOST_USER_PASSWORD = ''
+# EMAIL_USE_TLS = False
+# EMAIL_USE_SSL = False
 
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'
-# ADMIN_HOST_USER = 'emmanuelhillaryugwu@gmail.com'
-# EMAIL_HOST_USER = "hillarygrg@gmail.com"
-# EMAIL_HOST_PASSWORD = str(os.getenv('EMAIL_HOST_PASSWORD')) #past the key or password app here
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+ADMIN_HOST_USER = 'emmanuelhillaryugwu@gmail.com'
+EMAIL_HOST_USER = "hillarygrg@gmail.com"
+EMAIL_HOST_PASSWORD = str(os.getenv('EMAIL_HOST_PASSWORD')) #past the key or password app here
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
